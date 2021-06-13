@@ -1,4 +1,59 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
+
+.header-page {
+  background: #ffffff;
+}
+
+/* logo style */
+.logo-web {
+  color: #2196f3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+
+.logo-studio {
+  color: #000000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+}
+/* Site navigation */
+.site-nav-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.link-nav {
+  color: #212121;
+}
+.link-nav:hover,
+.link-nav:focus {
+  color: #2196f3;
+}
+
+/* Contacts navigation */
+.contacts-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+.contact-link {
+  color: #757575;
+}
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/* цвет заголовков #212121; */
+/* цвет текста background: #757575; */
+/* акцент текста #2196F3; */
