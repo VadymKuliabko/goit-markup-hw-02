@@ -1,218 +1,131 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #2196f3;
+}
+
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
+  font-weight: 400;
 }
 
-/*Header */
-
-.header-page {
-  background: #ffffff;
+.link {
+  text-decoration: none;
 }
 
-/* logo style */
+.list {
+  list-style: none;
+}
+
+/* ========== HEADER ============*/
 
 .logo-web {
-  color: #2196f3;
+  color: var(--accent-color);
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
 
 .logo-studio {
   color: #000000;
   font-family: Raleway;
-  font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
 }
-/* Site navigation */
 
-.site-nav-list {
-  font-family: Roboto;
-  font-style: normal;
+.nav-link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1, 14;
   letter-spacing: 0.02em;
   color: #212121;
-  list-style: none;
 }
 
-.link-nav {
-  color: #212121;
-}
-
-.link-nav:hover,
-.link-nav:focus {
-  color: #2196f3;
-}
-
-/* Contacts navigation */
-
-.contacts-list {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  list-style: none;
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
 }
 
 .contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
+
+.nav-link.current {
+  color: var(--accent-color);
+}
+
+/* ============ END HEADER ===============*/
 
 /* Hero section */
-.hero-page {
-  background: #2f303a;
+.hero {
 }
 
-.hero-page-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: #ffffff;
+.hero-title {
+}
+
+.hero-button {
 }
 
 /* Features section */
 
 .feature-list {
-  background: #e5e5e5;
   list-style: none;
 }
 
-.feature-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #212121;
+.feature-list .title {
 }
 
 .feature-text {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 
-/* Company services */
+/* Section */
+
+.section-title {
+}
 
 .company-services {
-  background: #e5e5e5;
 }
 
-.services-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.services-list {
-  list-style: none;
-}
-
-/* Team company */
+/* Team  */
 
 .team-company {
-  background: #f5f4fa;
 }
 
-.team-company-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
-
-.team-list {
-  list-style: none;
+.company-title {
 }
 
 .team-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #212121;
 }
 
 .position {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 
 /* Footer */
 
 .contacts-company {
-  background: #2f303a;
 }
 
 .studio {
   color: #ffffff;
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
 }
 
 .address-company {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
-.contacts-list {
-  list-style: none;
-}
-
-.contact-company-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+.company-link {
   color: rgba(255, 255, 255, 0.6);
 }
