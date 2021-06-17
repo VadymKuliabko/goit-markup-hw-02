@@ -9,7 +9,9 @@ body {
   font-weight: 400;
 }
 
-.link {
+.link,
+.contact-link,
+.logo-link {
   text-decoration: none;
 }
 
@@ -19,9 +21,13 @@ body {
 
 /* ========== HEADER ============*/
 
+.header {
+  background: #ffffff;
+}
+
 .logo-web {
   color: var(--accent-color);
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1, 19;
@@ -30,7 +36,7 @@ body {
 
 .logo-studio {
   color: #000000;
-  font-family: Raleway;
+  font-family: var(--secondary-font);
   font-weight: bold;
   font-size: 26px;
   line-height: 1, 19;
@@ -69,56 +75,130 @@ body {
 
 /* ============ END HEADER ===============*/
 
-/* Hero section */
+/* ============ HERO SECTION ============ */
 .hero {
+  background: #2f303a;
 }
 
 .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1, 36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.hero-button {
+.modal-btn {
+  background: var(--accent-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1, 87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
 }
 
-/* Features section */
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #188ce8;
+}
 
+/* ============== END HERO SECTION============== */
+
+/* ============== FEATURES =============== */
+.features {
+  background: #e5e5e5;
+}
 .feature-list {
   list-style: none;
 }
 
-.feature-list .title {
+.title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+  color: #212121;
 }
 
 .feature-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-/* Section */
+/* ============ END FEATURES ===============  */
 
-.section-title {
+/* ============ PROJECTS COMPANY ============ */
+.projects {
+  background: #e5e5e5;
+}
+.project-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-.company-services {
-}
+/* ============ END PROJECTS COMPANY ============== */
 
-/* Team  */
+/* ============ TEAM COMPANY =============  */
 
 .team-company {
+  background: #f5f4fa;
 }
 
-.company-title {
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1, 16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 18;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .position {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 
-/* Footer */
+/* =========== END TEAM COMPANY ================ */
+
+/* =============== FOOTER ================== */
 
 .contacts-company {
+  background: #2f303a;
 }
 
-.studio {
+.studio-logo {
+  font-family: var(--secondary-font);
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
@@ -127,5 +207,18 @@ body {
 }
 
 .company-link {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.company-link:hover,
+.company-link:focus {
+  color: var(--accent-color);
+}
+
+.company-link {
+  text-decoration: none;
 }
