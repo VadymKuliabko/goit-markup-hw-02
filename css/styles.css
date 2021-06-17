@@ -123,7 +123,6 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
-
   text-transform: uppercase;
   color: #212121;
 }
@@ -221,4 +220,34 @@ body {
 
 .company-link {
   text-decoration: none;
+}
+
+/* =========== END FOOTER ============ */
+
+/* =========== PORTFOLIO ============= */
+.development-catalog {
+  background: #e5e5e5;
+}
+
+.catalog-nav {
+  list-style: none;
+}
+
+.nav-btn {
+  background: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.nav-btn:hover,
+.nav-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+
+.development-item {
 }
