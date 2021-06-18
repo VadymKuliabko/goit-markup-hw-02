@@ -2,11 +2,14 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
 }
 
 body {
   font-family: var(--main-font);
   font-weight: 400;
+  color: var(--main-color);
 }
 
 .link,
@@ -48,7 +51,7 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .nav-link:hover,
@@ -61,7 +64,7 @@ body {
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 .contact-link:hover,
@@ -91,6 +94,7 @@ body {
 }
 
 .modal-btn {
+  font-family: inherit;
   background: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
@@ -124,7 +128,7 @@ body {
   line-height: 1, 14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .feature-text {
@@ -133,7 +137,7 @@ body {
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* ============ END FEATURES ===============  */
@@ -148,7 +152,7 @@ body {
   line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 /* ============ END PROJECTS COMPANY ============== */
@@ -165,7 +169,7 @@ body {
   line-height: 1, 16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .team-title {
@@ -173,7 +177,7 @@ body {
   font-size: 16px;
   line-height: 1, 18;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .position {
@@ -181,7 +185,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-color);
 }
 
 /* =========== END TEAM COMPANY ================ */
@@ -234,6 +238,7 @@ body {
 }
 
 .nav-btn {
+  font-family: inherit;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -250,4 +255,24 @@ body {
 }
 
 .development-item {
+}
+
+.development-link {
+  text-decoration: none;
+}
+
+.development-name {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2, 00;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+}
+
+.development-section {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1, 87;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
 }
