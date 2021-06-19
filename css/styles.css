@@ -229,6 +229,12 @@ body {
 /* =========== END FOOTER ============ */
 
 /* =========== PORTFOLIO ============= */
+
+.portfolio-title,
+.features-title {
+  display: none;
+}
+
 .development-catalog {
   background: #e5e5e5;
 }
