@@ -94,6 +94,7 @@ body {
 }
 
 .modal-btn {
+  font-family: inherit;
   background: var(--accent-color);
   font-weight: 700;
   font-size: 16px;
@@ -240,6 +241,7 @@ body {
 }
 
 .nav-btn {
+  font-family: inherit;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
