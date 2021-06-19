@@ -31,7 +31,7 @@ body {
 .logo-web {
   color: var(--accent-color);
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
@@ -40,7 +40,7 @@ body {
 .logo-studio {
   color: #000000;
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
@@ -94,9 +94,8 @@ body {
 }
 
 .modal-btn {
-  font-family: inherit;
   background: var(--accent-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
   display: flex;
@@ -123,7 +122,7 @@ body {
 }
 
 .title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1, 14;
   letter-spacing: 0.03em;
@@ -132,8 +131,6 @@ body {
 }
 
 .feature-text {
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
@@ -147,7 +144,7 @@ body {
   background: #e5e5e5;
 }
 .project-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
   text-align: center;
@@ -164,7 +161,7 @@ body {
 }
 
 .section-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1, 16;
   text-align: center;
@@ -181,7 +178,6 @@ body {
 }
 
 .position {
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
@@ -198,7 +194,7 @@ body {
 
 .studio-logo {
   font-family: var(--secondary-font);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1, 19;
   letter-spacing: 0.03em;
@@ -210,7 +206,6 @@ body {
 }
 
 .company-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1, 71;
   letter-spacing: 0.03em;
@@ -244,7 +239,6 @@ body {
 }
 
 .nav-btn {
-  font-family: inherit;
   background: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
@@ -268,7 +262,7 @@ body {
 }
 
 .development-name {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2, 00;
   letter-spacing: 0.06em;
@@ -276,7 +270,6 @@ body {
 }
 
 .development-section {
-  font-weight: normal;
   font-size: 16px;
   line-height: 1, 87;
   letter-spacing: 0.03em;
